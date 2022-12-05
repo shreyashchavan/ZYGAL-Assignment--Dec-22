@@ -162,6 +162,10 @@
         let colors1 = ['red', 'yellow', 'green', 'orange'];
         let colors2 = ['red', 'orange', 'green', 'yellow'];
         let i = 0;
+	let b1 =document.getElementById("block1");
+	let b2=document.getElementById("block2");
+	let b3 = document.getElementById("block3");
+	let b4= document.getElementById("block4");
 
         function clockwiseColor() {
 
@@ -169,24 +173,27 @@
                 j = 3;
                 k = 2;
                 l = 1;
-            } else if (i == 1) {
+            } 
+	    else if (i == 1) {
                 j = 0;
                 k = 3;
                 l = 2;
-            } else if (i == 2) {
+            } 
+	    else if (i == 2) {
                 j = 1;
                 k = 0;
                 l = 3;
-            } else if (i == 3) {
+            } 
+	    else if (i == 3) {
                 j = 2;
                 k = 1;
                 l = 0;
             }
 
-            document.getElementById("block1").style.backgroundColor = colors2[i];
-            document.getElementById("block2").style.backgroundColor = colors2[j];
-            document.getElementById("block3").style.backgroundColor = colors2[k];
-            document.getElementById("block4").style.backgroundColor = colors2[l];
+            b1.style.backgroundColor = colors2[i];
+            b2.style.backgroundColor = colors2[j];
+            b3.style.backgroundColor = colors2[k];
+            b4.style.backgroundColor = colors2[l];
             i++;
             if (i == 4) {
                 i = 0;
@@ -200,24 +207,27 @@
                 j = 1;
                 k = 2;
                 l = 3;
-            } else if (i == 1) {
+            } 
+	    else if (i == 1) {
                 j = 2;
                 k = 3;
                 l = 0;
-            } else if (i == 2) {
+            }
+	    else if (i == 2) {
                 j = 3;
                 k = 0;
                 l = 1;
-            } else if (i == 3) {
+            }
+	    else if (i == 3) {
                 j = 0;
                 k = 1;
                 l = 2;
             } 
             
-            document.getElementById("block1").style.backgroundColor = colors1[i];
-            document.getElementById("block2").style.backgroundColor = colors1[j];
-            document.getElementById("block3").style.backgroundColor = colors1[k];
-            document.getElementById("block4").style.backgroundColor = colors1[l];
+            b1.style.backgroundColor = colors1[i];
+            b2.style.backgroundColor = colors1[j];
+            b3.style.backgroundColor = colors1[k];
+            b4.style.backgroundColor = colors1[l];
             i++;
             if (i == 4) {
                 i = 0;
