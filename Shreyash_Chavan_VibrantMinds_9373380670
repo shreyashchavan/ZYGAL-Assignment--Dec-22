@@ -103,8 +103,26 @@
     </style>
 
 </head>
-
 <body>
+    <div>
+	<div class="m_instruction-section">
+		<p>Task to perform :</p>
+		<ul>
+			<li>1. On click of clockwise button the colors within block should move in clockwise direction
+					<br>
+				On clockwise button click - <br>
+				Red Color of block 1 should be applied to block 2, yellow color of block 2 should be applied to block 3, green color of block 3 should be applied to block 4 and orange color of block 4 should be applied to block 1.<br>
+			</li>
+			<li>2. On click of anti-clockwise button the colors within block should move in anti-clockwise direction.
+					<br>
+				Same as above but in reverse direction.
+			</li>
+			<li>3. This color switch(apply) cycle should work for n number of clicks and not just one click.
+			</li>
+			<li>4. You can use javascript/jQuery.
+			</li>
+		</ul>
+	</div>
 
 
     <div class="main-section">
